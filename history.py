@@ -316,6 +316,7 @@ while (True):
                 para = input("請輸入篇名（第一章 世界史）\n:")
                 author = input("請輸入作者（作者A、作者B）\n:")
                 trans = input("請輸入譯者(若無請直接enter跳過)（譯者A、譯者B）\n:")
+                page = input("請輸入頁數（頁碼-頁碼）\n:")
                 publish = input("請輸入出版（出版地：出版社）\n:")
                 date = input("請輸入出版日期（西元年）\n:")
                 istrans = 0
@@ -336,7 +337,7 @@ while (True):
                         p += trans
                     p += "譯，"
                 p += "〈" + para + "〉"
-                p += "，《" + title + "》。" + publish + "，" + date + "。"
+                p += "，《" + title + "》，頁" + page + "。" + publish + "，" + date + "。"
             elif book == "4":#期刊論文
                 title = input("請輸入題名\n:")
                 author = input("請輸入作者（作者A、作者B）\n:")
