@@ -4,4 +4,4 @@ build
 dist
 output.txt
 .env
-*.spce
+*.spec
