@@ -5,3 +5,4 @@ dist
 output.txt
 .env
 *.spec
+.DS_Store
